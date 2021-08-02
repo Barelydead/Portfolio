@@ -9,9 +9,9 @@
 
                 <!-- hero text -->
                 <div class="hero-text col-span-6">
-                    <h1 class=" font-bold text-4xl md:text-5xl max-w-xl text-gray-900 leading-tight">Don't listen to what they say, Go See</h1>
+                    <h1 class=" font-bold text-4xl md:text-5xl max-w-xl text-gray-900 leading-tight">Hello, i'm Christofer.</h1>
                     <hr class=" w-12 h-1 bg-orange-500 rounded-full mt-8">
-                    <p class="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Your ultimate travel companion. Carries all the information you need while travelling</p>
+                    <p class="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Welcome to my portfolio</p>
                 </div>
 
                 <!-- hero image -->
@@ -25,7 +25,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: 'Home',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
+    ],
+  }
+}
 </script>
 
 <style>
